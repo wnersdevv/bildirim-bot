@@ -1,0 +1,76 @@
+{
+  "token": "",
+  "clientId": "",
+  "mongoUri": "",
+  "ownerIds": [],
+  "bot": {
+    "name": "WNERSDEV Bildirim",
+    "language": "tr",
+    "debug": false
+  },
+  "notifications": {
+    "enabled": true,
+    "channel": {
+      "enabled": true,
+      "channelId": ""
+    },
+    "dm": {
+      "enabled": false
+    },
+    "mention": {
+      "enabled": true,
+      "roleId": ""
+    },
+    "cooldownSeconds": 60,
+    "duplicateProtection": true,
+    "platforms": {
+      "youtube": {
+        "enabled": true,
+        "apiKey": "",
+        "scanIntervalSeconds": 120,
+        "videoNotifications": true,
+        "liveNotifications": true,
+        "shortsNotifications": true,
+        "communityNotifications": false,
+        "channelNotifications": true,
+        "dmNotifications": false
+      },
+      "twitch": {
+        "enabled": true,
+        "clientId": "",
+        "clientSecret": "",
+        "scanIntervalSeconds": 60,
+        "liveNotifications": true,
+        "offlineNotifications": false,
+        "channelNotifications": true,
+        "dmNotifications": false
+      },
+      "tiktok": {
+        "enabled": false,
+        "scanIntervalSeconds": 120,
+        "videoNotifications": true,
+        "liveNotifications": true,
+        "channelNotifications": true,
+        "dmNotifications": false
+      },
+      "instagram": {
+        "enabled": false,
+        "scanIntervalSeconds": 120,
+        "postNotifications": true,
+        "storyNotifications": false,
+        "liveNotifications": true,
+        "channelNotifications": true,
+        "dmNotifications": false
+      },
+      "x": {
+        "enabled": false,
+        "scanIntervalSeconds": 120,
+        "postNotifications": true,
+        "replyNotifications": false,
+        "repostNotifications": false,
+        "channelNotifications": true,
+        "dmNotifications": false
+      }
+    }
+  }
+}

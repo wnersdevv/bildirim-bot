@@ -1,0 +1,20 @@
+{
+  "name": "wnersdev-bildirim-botu",
+  "version": "1.0.0",
+  "description": "WNERSDEV Ultimate - Gelismis Bildirim ve Duyuru Botu (Discord)",
+  "main": "wnersdev.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "scripts": {
+    "start": "node wnersdev.js",
+    "deploy-commands": "node src/deployCommands.js",
+    "selftest": "node src/selftest.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "mongoose": "^8.7.0"
+  },
+  "license": "UNLICENSED"
+}
